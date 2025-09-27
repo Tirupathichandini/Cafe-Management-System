@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chandini's Cafe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to Chandini's Cafe</h1>
+  <h2>Here is the Menu</h2>
+
+  <div id="menu"></div>
+
+  <h3>Place Your Order</h3>
+  <div id="order-section">
+    <select id="item-select"></select>
+    <input type="number" id="quantity" min="1" value="1">
+    <button onclick="addToOrder()">Add to Order</button>
+  </div>
+
+  <h3>Order Summary</h3>
+  <table id="order-summary">
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Quantity</th>
+        <th>Cost</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <div id="bill">
+    <p id="total">Total: ₹0</p>
+    <p id="total-gst">Total with GST (18%): ₹0</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
