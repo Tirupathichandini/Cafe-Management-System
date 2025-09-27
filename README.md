@@ -25,7 +25,7 @@ A simple **Cafe Management System** built using **Python** to help manage orders
 
 ## Usage
 
--Run the main.py file.
+-Run the app.py file.
 -Select options from the menu:
 -Add new items to the menu
 -Take customer orders
